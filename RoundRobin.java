@@ -65,9 +65,9 @@ public class RR {
             Enter Time Quantum: 2
             Enter Burst Time of all Processes: 10 5 8
             BT	WT	TAT
-            0	13	23
-            0	10	15
-            0	13	21
+            10	13	23
+            5	10	15
+            8	13	21
             Average Wating Time: 12.0
             Average Turn Arround Time: 19.666666
        */
