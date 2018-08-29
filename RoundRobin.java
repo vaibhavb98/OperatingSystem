@@ -54,7 +54,7 @@ public class RR {
             }
         }
         
-        printIt(RBT, WT, TAT);
+        printIt(BT, WT, TAT);
         
         System.out.println("Average Wating Time: " + (float)sum(WT)/n_process);
         System.out.println("Average Turn Arround Time: " + (float)sum(TAT)/n_process);
