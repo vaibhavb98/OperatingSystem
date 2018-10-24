@@ -1,6 +1,6 @@
 package vaibhavb;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -9,7 +9,7 @@ class LRU {
     public static void main(String args[]) {
         int pages[] = {0, 9, 0, 1, 8, 1, 8, 7, 8, 7, 1, 2, 8, 2, 7, 8, 2, 8};
         int capacity = 3;
-        ArrayList<Integer> requestStr = new ArrayList<>(capacity);
+        HashSet<Integer> requestStr = new HashSet<>(capacity);
         HashMap<Integer, Integer> pageToCount = new HashMap<>();
         int page_faults = 0;
         for (int i = 0; i < pages.length; i++) {
@@ -40,9 +40,9 @@ class LRU {
             for (Integer item : requestStr) {
                 System.out.print(item + " ");
             }
+            System.out.println("");
         }
 
-        System.out.println("");
         System.out.println("Total Page Faults: " + page_faults);
     }
 }
