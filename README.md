@@ -3,3 +3,8 @@
 
 ## OperatingSystem
 ### All Algorithms Taught in OS class
+
+Practicles
+- FCFS Scheduling
+- Round Robin
+- 
