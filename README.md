@@ -4,7 +4,10 @@
 ## OperatingSystem
 ### All Algorithms Taught in OS class
 
-Practicles
+### Practicles
 - FCFS Scheduling
 - Round Robin
-- 
+- Shortest Job First
+- Reader Writer
+- Producer Consumer
+- Least Recently Used (LRU) Page Replacement
