@@ -11,3 +11,4 @@
 - Reader Writer
 - Producer Consumer
 - Least Recently Used (LRU) Page Replacement
+- Shortest Seek Time First (SSTF) Page Replacement
